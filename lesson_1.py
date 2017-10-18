@@ -1,4 +1,9 @@
-def solution(N):
+"""
+Test 1: BinaryGap
+"""
+
+
+def binary_gap(N):
     binary_string = format(2, 'b')
     zero_gaps = binary_string.strip('0').split('1')
 
